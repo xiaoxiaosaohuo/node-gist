@@ -1,0 +1,25 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon ./404/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxiaosaohuo/node-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoxiaosaohuo/node-learn/issues"
+  },
+  "homepage": "https://github.com/xiaoxiaosaohuo/node-learn#readme",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "koa": "^2.13.1",
+    "nodemon": "^2.0.12"
+  }
+}
