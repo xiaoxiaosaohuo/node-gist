@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./404/app.js",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles --collectCoverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "jest": "^27.0.6",
     "koa": "^2.13.1",
+    "koa-basic-auth": "^4.0.0",
     "nodemon": "^2.0.12",
     "supertest": "^6.1.5"
   },
