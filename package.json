@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon ./template/app.js",
-    "start": "nodemon ./jsonp/app.js",
+    "start": "nodemon ./rabbitmq/receiver.js",
+    "send": "nodemon ./rabbitmq/index.js",
     "test": "jest --detectOpenHandles --collectCoverage --verbose"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/xiaoxiaosaohuo/node-learn#readme",
   "dependencies": {
+    "amqplib": "^0.10.3",
     "busboy": "^0.3.1",
     "ejs": "^3.1.6",
     "jest": "^27.0.6",
